@@ -47,8 +47,9 @@
       </ion-card-header>
     
       <ion-card-content>
-        <ion-button fill="clear">Comprar</ion-button>
-        <ion-button fill="clear" (click) = "carritoService.limpiarCarrito()">Limpiar carrito</ion-button>
-   
+       
+<a href="{{carritoService.generarMensaje()}}" target="_blank">Comprar</a>
+<ion-button fill="clear" (click)="carritoService.limpiarCarrito()">Limpiar carrito</ion-button>
+      
       </ion-card-content>
     </ion-card>
